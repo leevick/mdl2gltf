@@ -47,8 +47,23 @@ const char *RIFF_TAGS[] = {
     "ATTO",
     "SHAM", nullptr};
 
+struct guid
+{
+    u_int32_t id_0;
+    u_int16_t id_1;
+    u_int16_t id_2;
+    u_int16_t id_3;
+    u_int8_t id_4[16];
+} __attribute__((packed));
+
+struct XANI
+{
+    unsigned _unkwon_0;
+    guid id;
+    float length;
     
 
+} __attribute__((packed));
 
 int main(int argc, char const *argv[]) {
 
