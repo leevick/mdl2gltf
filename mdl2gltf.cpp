@@ -35,12 +35,20 @@ const char *RIFF_TAGS[] = {
     "LODE",
     "PART",
     "ANIB",
+    "XANH",
+    "XANL",
+    "XANI",
+    "XANS",
+    "XANK",
     "PLAL",
     "PLAT",
     "REFL",
     "REFP",
     "ATTO",
     "SHAM", nullptr};
+
+    
+
 
 int main(int argc, char const *argv[]) {
 

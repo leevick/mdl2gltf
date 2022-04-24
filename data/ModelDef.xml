@@ -1,0 +1,694 @@
+<ModelInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_4_00</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:4, percent) 6.25 &gt;
+          if{
+          (A:ENG N1 RPM:4, percent) 12.5 &lt; if{ 1 } els{ 0 }
+          } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_4_01</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:4, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_LIGHT_NAV_02</Name>
+    <Visibility>
+      <Parameter>
+        <Sim>
+          <Variable>LIGHT NAV</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_1_03</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:1, percent) 6.25 &gt;
+          if{
+          (A:ENG N1 RPM:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+          } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_1_04</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_2_05</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:2, percent) 6.25 &gt;
+          if{
+          (A:ENG N1 RPM:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
+          } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_2_06</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_osv_kil_07</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (L:osv_kil,bool) 0 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_osv_kil_08</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (L:osv_kil,bool) 0 &gt; if{ 0 } els{ 1 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_LIGHT_TAXI_09</Name>
+    <Visibility>
+      <Parameter>
+        <Sim>
+          <Variable>LIGHT TAXI</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_LIGHT_LANDING_10</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:LIGHT LANDING,bool)
+          (L:Fary_svet_f,bool)
+          and
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_osv_trap_11</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (L:osv_trap,bool) 0 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_osv_trap_12</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (L:osv_trap,bool) 0 &gt; if{ 0 } els{ 1 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_4_13</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:4, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_3_14</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:3, percent) 6.25 &gt;
+          if{
+          (A:ENG N1 RPM:3, percent) 12.5 &lt; if{ 1 } els{ 0 }
+          } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_3_15</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:3, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_3_16</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:3, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_2_17</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_ENG_N1_RPM_1_18</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:ENG N1 RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_LIGHT_LANDING_19</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:LIGHT LANDING,bool)
+          (L:Fary_svet_r,bool)
+          and
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>custom_vis_LIGHT_BEACON_20</Name>
+    <Visibility>
+      <Parameter>
+        <Sim>
+          <Variable>LIGHT BEACON</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:0</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_CENTER_STEER_ANGLE_03" guid="bc935f16-43cd-4046-8ef3-06e44a5940ab" length="200" type="Sim" typeParam2="custom_anim_GEAR_CENTER_STEER_ANGLE_03" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_CENTER_STEER_ANGLE_03</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+            (A:GEAR CENTER STEER ANGLE, grads) 0 &gt; if{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * } els{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * 200 + }
+          </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CNTR_INTR_percent_04" guid="a104dd12-b188-4f06-b6f5-4d5c24f4ab45" length="100" type="Sim" typeParam2="custom_anim_CNTR_INTR_percent_04" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CNTR_INTR_percent_04</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:CNTR_INTR_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_Fary_povor_05" guid="d9c609ea-17a8-434f-8b44-b626d14b53ea" length="100" type="Sim" typeParam2="custom_anim_Fary_povor_05" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_Fary_povor_05</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:Fary_povor,bool) 100 * 
+        </Code>
+        <Lag>33</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WING_INTR_A_percent_06" guid="0fff713d-d462-46f8-8d6e-67baaeca0325" length="100" type="Sim" typeParam2="custom_anim_LEFT_WING_INTR_A_percent_06" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WING_INTR_A_percent_06</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:LEFT_WING_INTR_A_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WING_INTR_B_percent_07" guid="5d5e9379-0a43-4005-af8a-f03fe7023e96" length="100" type="Sim" typeParam2="custom_anim_LEFT_WING_INTR_B_percent_07" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WING_INTR_B_percent_07</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:LEFT_WING_INTR_B_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WING_INTR_C_percent_08" guid="f6dbd3e4-0c5b-4ff6-b941-e6460afcbf48" length="100" type="Sim" typeParam2="custom_anim_LEFT_WING_INTR_C_percent_08" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WING_INTR_C_percent_08</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:LEFT_WING_INTR_C_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WING_INTR_D_percent_09" guid="ff3b1d52-fb74-4715-857e-fc7cd647d29a" length="100" type="Sim" typeParam2="custom_anim_LEFT_WING_INTR_D_percent_09" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WING_INTR_D_percent_09</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:LEFT_WING_INTR_D_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WING_INTR_A_percent_10" guid="2f98c49a-80c8-470c-a279-ce70685c0ab3" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WING_INTR_A_percent_10" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WING_INTR_A_percent_10</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:RIGHT_WING_INTR_A_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WING_INTR_B_percent_11" guid="2c52a325-4dd9-4c54-ab54-56dcec3956d1" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WING_INTR_B_percent_11" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WING_INTR_B_percent_11</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:RIGHT_WING_INTR_B_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WING_INTR_C_percent_12" guid="78fa75e8-f415-49bb-9d75-0bc629b1bf43" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WING_INTR_C_percent_12" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WING_INTR_C_percent_12</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:RIGHT_WING_INTR_C_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WING_INTR_D_percent_13" guid="052810db-ab2d-4b77-a28e-8534d53cc484" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WING_INTR_D_percent_13" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WING_INTR_D_percent_13</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (L:RIGHT_WING_INTR_D_percent,percent)     
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_SIM_ON_GROUND_14" guid="02efd683-7f28-4d09-b78e-7a3507b7906a" length="500" type="Sim" typeParam2="custom_anim_SIM_ON_GROUND_14" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_SIM_ON_GROUND_14</Name>
+    <AnimLength>500</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:SIM ON GROUND, bool) if{ (A:PLANE PITCH DEGREES, degrees) /-/ 10 * 300 + } els{ 300 }
+        </Code>
+        <Lag>100</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_SIM_ON_GROUND_15" guid="4eeae28f-abbd-4b38-bcd2-6e5301f4be6f" length="500" type="Sim" typeParam2="custom_anim_SIM_ON_GROUND_15" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_SIM_ON_GROUND_15</Name>
+    <AnimLength>500</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:SIM ON GROUND, bool) if{ (A:PLANE PITCH DEGREES, degrees) /-/ 10 * 300 + } els{ 300 }
+        </Code>
+        <Lag>100</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_EXIT_OPEN_0_16" guid="5fa8db9f-425e-436a-a2c5-0aa28d1b97bd" length="1000" type="Sim" typeParam2="custom_anim_EXIT_OPEN_0_16" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_EXIT_OPEN_0_16</Name>
+    <AnimLength>1000</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>EXIT OPEN:0</Variable>
+          <Units>percent</Units>
+          <Scale>10</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_17" guid="3849e47f-9088-4699-8959-ec0c54df8012" length="1000" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_17" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_17</Name>
+    <AnimLength>1000</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>TRAILING EDGE FLAPS RIGHT PERCENT</Variable>
+          <Units>percent</Units>
+          <Scale>10</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_WING_FLEX_PCT_1_18" guid="6ec1c128-875f-4a26-b9f0-b6f1baa8a31f" length="500" type="Sim" typeParam2="custom_anim_WING_FLEX_PCT_1_18" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_WING_FLEX_PCT_1_18</Name>
+    <AnimLength>500</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>WING FLEX PCT:1</Variable>
+          <Units>percent</Units>
+          <Scale>2.5</Scale>
+          <Bias>250</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_WING_FLEX_PCT_2_19" guid="1dc0bc32-67c2-44eb-a254-207004f90841" length="500" type="Sim" typeParam2="custom_anim_WING_FLEX_PCT_2_19" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_WING_FLEX_PCT_2_19</Name>
+    <AnimLength>500</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>WING FLEX PCT:2</Variable>
+          <Units>percent</Units>
+          <Scale>2.5</Scale>
+          <Bias>250</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GENERAL_ENG_RPM_1_20" guid="a8a17d4d-c821-44be-bd6f-53755e8af282" length="360" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_1_20" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GENERAL_ENG_RPM_1_20</Name>
+    <AnimLength>360</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:GENERAL ENG RPM:1,degrees per second) 10 / int (E:ABSOLUTE TIME, second) * 360 %
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GENERAL_ENG_RPM_2_21" guid="0b602892-bd74-4450-88e9-25c8dd595cf6" length="360" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_2_21" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GENERAL_ENG_RPM_2_21</Name>
+    <AnimLength>360</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:GENERAL ENG RPM:2,degrees per second) 10 / int (E:ABSOLUTE TIME, second) * 360 %
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GENERAL_ENG_RPM_3_22" guid="4ac0a026-8540-4110-a394-e46eef7d4026" length="360" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_3_22" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GENERAL_ENG_RPM_3_22</Name>
+    <AnimLength>360</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:GENERAL ENG RPM:3,degrees per second) 10 / int (E:ABSOLUTE TIME, second) * 360 %
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GENERAL_ENG_RPM_4_23" guid="7c262758-c2a2-46bc-9d8d-1ccf83d0c4ea" length="360" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_4_23" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GENERAL_ENG_RPM_4_23</Name>
+    <AnimLength>360</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+          (A:GENERAL ENG RPM:4,degrees per second) 10 / int (E:ABSOLUTE TIME, second) * 360 %
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_ELEVATOR_DEFLECTION_PCT_24" guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="custom_anim_ELEVATOR_DEFLECTION_PCT_24" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_ELEVATOR_DEFLECTION_PCT_24</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>ELEVATOR DEFLECTION PCT</Variable>
+          <Units>percent</Units>
+          <Scale>1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_AILERON_LEFT_DEFLECTION_PCT_25" guid="bad53e9a-1958-4b22-90fe-23513d121db3" length="100" type="Sim" typeParam2="custom_anim_AILERON_LEFT_DEFLECTION_PCT_25" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_AILERON_LEFT_DEFLECTION_PCT_25</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>AILERON LEFT DEFLECTION PCT</Variable>
+          <Units>percent</Units>
+          <Scale>-1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_26" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_26" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_1_26</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:1</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_27" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" length="100" type="Sim" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_27" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_27</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_28" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_28" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_28</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_AILERON_RIGHT_DEFLECTION_PCT_29" guid="77db62be-36d4-4c03-bea7-c4cc2a224d9d" length="100" type="Sim" typeParam2="custom_anim_AILERON_RIGHT_DEFLECTION_PCT_29" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_AILERON_RIGHT_DEFLECTION_PCT_29</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>AILERON RIGHT DEFLECTION PCT</Variable>
+          <Units>percent</Units>
+          <Scale>-1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_30" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_30" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_2_30</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:2</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_31" guid="aa67f522-28c5-4d09-a246-2823d34a686b" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_31" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_31</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_32" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_32" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_32</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RUDDER_DEFLECTION_PCT_33" guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100" type="Sim" typeParam2="custom_anim_RUDDER_DEFLECTION_PCT_33" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RUDDER_DEFLECTION_PCT_33</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>RUDDER DEFLECTION PCT</Variable>
+          <Units>percent</Units>
+          <Scale>1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_ELEVATOR_TRIM_PCT_34" guid="e682662a-3af5-4afe-a99b-a26d45560d67" length="100" type="Sim" typeParam2="custom_anim_ELEVATOR_TRIM_PCT_34" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_ELEVATOR_TRIM_PCT_34</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>ELEVATOR TRIM PCT</Variable>
+          <Units>percent</Units>
+          <Scale>0.5</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+</ModelInfo>
